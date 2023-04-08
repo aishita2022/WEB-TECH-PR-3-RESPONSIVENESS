@@ -1,0 +1,91 @@
+/*RESPONSIVE DESIGN 2 SOFTWARE*/
+/*CASE 1 FIRST IMAGE TOP ROW*/
+@media only screen and (min-width: 1201px) {
+	.software {
+		background:url("software.png") 0px 0px;
+		width:128px; 
+		height:240px; 
+	}
+}
+
+
+/*CASE 2 SECOND IMAGE TOP ROW*/
+@media only screen and (min-width: 1101px) and (max-width: 1200px) {
+	.software {
+		background:url("software.png") -128px 0px;
+		width:128px; 
+		height:240px; 
+	}
+}
+
+/*CASE 3 THIRD IMAGE TOP ROW*/
+@media only screen and (min-width: 1001px) and (max-width: 1100px){
+	.software {
+		background:url("software.png") -256px 0px;
+		width:128px; 
+		height:240px; 
+	}
+}
+
+/*CASE 4 FOURTH IMAGE TOP ROW*/
+@media only screen and (min-width: 901px) and (max-width: 1000px){
+	.software {
+		background:url("software.png") -384px 0px;
+		width:128px; 
+		height:240px; 
+	}
+}
+ 
+/*CASE 5 FIFTH IMAGE TOP ROW*/
+@media only screen and (min-width: 801px) and (max-width: 900px){
+	.software {
+		background:url("software.png") -512px 0px;
+		width:128px; 
+		height:240px; 
+	}
+}
+ 
+/*CASE 6 FIRST IMAGE BOTTOM ROW*/
+@media only screen and (min-width: 701px) and (max-width: 800px){
+	.software {
+		background:url("software.png") 0px -240px;
+		width:128px; 
+		height:240px; 
+	}
+}
+ 
+/*CASE 7 SECOND IMAGE BOTTOM ROW*/
+@media only screen and (min-width: 601px) and (max-width: 700px){
+	.software {
+		background:url("software.png") -128px -240px;
+		width:128px; 
+		height:240px; 
+	}
+}
+ 
+/*CASE 8 THIRD IMAGE BOTTOM ROW*/
+@media only screen and (min-width: 501px) and (max-width: 600px){
+	.software {
+		background:url("software.png") -256px -240px;
+		width:128px; 
+		height:240px; 
+	}
+}
+ 
+/*CASE 9 FOURTH IMAGE BOTTOM ROW*/
+@media only screen and (min-width: 401px) and (max-width: 500px){
+	.software {
+		background:url("software.png") -384px -240px;
+		width:128px; 
+		height:240px; 
+	}
+}
+ 
+ /*CASE 10 FIFTH IMAGE BOTTOM ROW*/
+@media only screen and  (max-width: 400px) {
+	.software {
+		background:url("software.png") -512px -240px;
+		width:128px; 
+		height:240px; 
+	}
+}

@@ -1,0 +1,63 @@
+/*RESPONSIVE DESIGN 1*/
+/*CASE 1 TOP LEFT IMAGE*/
+@media only screen and (min-width: 1601px) {
+    .homer {
+      background: url("homer.jpg") 0px 0px;
+      width: 312.5px;
+      height: 312.5px;
+    }
+  }
+  
+  /*CASE 2 TOP RIGHT IMAGE*/
+  @media only screen and (min-width: 1401px) and (max-width: 1600px) {
+    .homer {
+      background: url("homer.jpg") -312.5px 0px;
+      width: 312.5px;
+      height: 312.5px;
+    }
+  }
+  
+  /*CASE 3 BOTTOM LEFT IMAGE*/
+  @media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .homer {
+      background: url("homer.jpg") 0px -312.5px;
+      width: 312.5px;
+      height: 312.5px;
+    }
+  }
+  
+  /*CASE 4 BOTTOM RIGHT IMAGE*/
+  @media only screen and (min-width: 1001px) and (max-width: 1200px) {
+    .homer {
+      background: url("homer.jpg") -312.5px -312.5px;
+      width: 312.5px;
+      height: 312.5px;
+    }
+  }
+  
+  /*CASE 5 BOTTOM LEFT IMAGE*/
+  @media only screen and (min-width: 801px) and (max-width: 1000px) {
+    .homer {
+      background: url("homer.jpg") 0px -312.5px;
+      width: 312.5px;
+      height: 312.5px;
+    }
+  }
+  
+  /*CASE 6 TOP RIGHT IMAGE*/
+  @media only screen and (min-width: 601px) and (max-width: 800px) {
+    .homer {
+      background: url("homer.jpg") -312.5px 0px;
+      width: 312.5px;
+      height: 312.5px;
+    }
+  }
+  
+  /*CASE 7 TOP LEFT IMAGE*/
+  @media only screen and (max-width: 600px) {
+    .homer {
+      background: url("homer.jpg") 0px 0px;
+      width: 312.5px;
+      height: 312.5px;
+    }
+  }
